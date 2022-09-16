@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "hizone.service.auth",
+      "type": "com.github.iamhi.hizone.terreplein.config.AuthConfig",
+      "sourceType": "com.github.iamhi.hizone.terreplein.config.AuthConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hizone.service.auth.access-token-name",
+      "type": "java.lang.String",
+      "sourceType": "com.github.iamhi.hizone.terreplein.config.AuthConfig"
+    },
+    {
+      "name": "hizone.service.auth.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.github.iamhi.hizone.terreplein.config.AuthConfig"
+    },
+    {
+      "name": "hizone.service.auth.password",
+      "type": "java.lang.String",
+      "sourceType": "com.github.iamhi.hizone.terreplein.config.AuthConfig"
+    },
+    {
+      "name": "hizone.service.auth.username",
+      "type": "java.lang.String",
+      "sourceType": "com.github.iamhi.hizone.terreplein.config.AuthConfig"
+    }
+  ],
+  "hints": []
+}
