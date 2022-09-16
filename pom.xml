@@ -135,4 +135,30 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+	<profiles>
+		<profile>
+			<id>docker</id>
+			<activation>
+				<property>
+					<name>profile</name>
+					<value>docker</value>
+				</property>
+			</activation>
+			<build>
+				<finalName>hi-zone-terreplein-docker</finalName>
+			</build>
+		</profile>
+		<profile>
+			<id>local</id>
+			<activation>
+				<property>
+					<name>profile</name>
+					<value>local</value>
+				</property>
+			</activation>
+			<build>
+				<finalName>hi-zone-terreplein-local</finalName>
+			</build>
+		</profile>
+	</profiles>
 </project>

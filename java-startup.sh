@@ -1,0 +1,1 @@
+nohup java -jar -XX:+UseSerialGC -Xss512k -XX:MaxRAM=72m -Dspring.profiles.active=local ./target/hi-zone-terreplein-local.jar &
